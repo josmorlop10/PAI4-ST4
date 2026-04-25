@@ -1,20 +1,91 @@
 *	OUTOFSCOPE	.*\/socket\.io\/.*
 10109	IGNORE	(Modern Web Application)
-10035	IGNORE	(Strict-Transport-Security Header Not Set)
 10098	IGNORE	(Cross-Domain Misconfiguration)
-10017	IGNORE	(Cross-Domain JavaScript Source File Inclusion)
 10096	IGNORE	(Timestamp Disclosure - Unix)
-10015	IGNORE	(Incomplete or No Cache-control and Pragma HTTP Header Set)
-10038	IGNORE	(Content Security Policy (CSP) Header Not Set)
 10099	IGNORE	(Source Code Disclosure - Java)
-10027	IGNORE	(Information Disclosure - Suspicious Comments)
 10094	IGNORE	(Base64 Disclosure)
-10063	IGNORE	(Feature Policy Header Not Set)
-10049	IGNORE	(Storable but Non-Cacheable Content)
-10049	IGNORE	(Non-Storable Content)
 10110	IGNORE	(Dangerous JS Functions)
 90004	IGNORE	(Insufficient Site Isolation Against Spectre Vulnerability)
 90005	IGNORE	(Sec-Fetch-Dest Header is Missing)
 90005	IGNORE	(Sec-Fetch-Mode Header is Missing)
 90005	IGNORE	(Sec-Fetch-Site Header is Missing)
 90005	IGNORE	(Sec-Fetch-User Header is Missing)
+10000	WARN	Strict-Transport-Security Header Not Set
+10001	WARN	X-Frame-Options Header Not Set
+10010	WARN	Cookie No HttpOnly Flag
+10011	WARN	Cookie No Secure Flag
+10015	WARN	Re-submission of Data to Another URL Detected
+10017	WARN	Cross-Domain JavaScript Source File Included
+10019	WARN	Content Security Policy (CSP) Header Not Set
+10020	WARN	Missing Anti-CSRF Tokens
+10021	WARN	Multiple X-Data-Structures Implemented
+10023	WARN	Information Disclosure - Database Errors
+10024	WARN	Information Disclosure - PHP Errors
+10025	WARN	Information Disclosure - Java Errors
+10026	WARN	Information Disclosure - SQL Injection Errors
+10027	WARN	Information Disclosure - Email Disclosed
+10028	WARN	Information Disclosure - Comments Disclosed
+10029	WARN	Information Disclosure - Private IP Disclosed
+10030	WARN	Open Database
+10031	WARN	Backup File Disclosure
+10032	WARN	Logout Link in Body
+10033	WARN	Directory Browsing
+10034	WARN	Heartbleed
+10035	WARN	Strict Transport Security
+10036	WARN	HTTP Parameter Pollution
+10037	WARN	Server Leaks Information via X-Powered-By HTTP Response Header Field(s)
+10038	WARN	Content Type Missing
+10039	WARN	Test.ASP
+10040	WARN	Proxy Disclosure
+10041	WARN	HTTP Response Splitting
+10042	WARN	OutOfBandXmlExternalEntity
+10043	WARN	HTTPS as HTTP
+10044	WARN	Insecure HTTP Method
+10045	WARN	Source Code Disclosure
+10046	WARN	Anitmated GIF Injection
+10047	WARN	HTTPS Content Mixed with HTTP
+10048	WARN	P3P Policy
+10049	WARN	Storable and Cacheable Content
+10050	WARN	Retrieval of Backup Files
+10051	WARN	Cacheable Content
+10052	WARN	X-ChromeLogger-Data (XCLD) Information Leak
+10053	WARN	Cacheability and Requestmethod
+10054	WARN	Content Cacheability
+10055	WARN	CSP
+10056	WARN	X-Debug-Token Information Leak
+10057	WARN	Username Hash Found
+10058	WARN	X-Aspect-Ratio Bypass
+10059	WARN	X-Original-URL Bypass
+10060	WARN	X-Rewrite-URL Bypass
+10061	WARN	X-Original-URL Bypass
+10062	WARN	PII Disclosure
+10063	WARN	Cookie Poisoning
+10064	WARN	SQL Injection
+10065	WARN	Cross Site Scripting (DOM Based)
+10066	WARN	HTTP Response Splitting
+10067	WARN	Race Condition
+10068	WARN	Cross Site Request Forgery
+10069	WARN	Missing Anti-CSRF Tokens
+10070	WARN	Use of Insecure MD4 Hash
+10071	WARN	Missing Anti-CSRF Tokens
+10072	WARN	Possible Username Enumeration
+10073	WARN	User Controllable HTML Event Handler
+10074	WARN	Cross Domain Misconfiguration
+10075	WARN	Possible SQL Injection Parameter
+10076	WARN	Insecure Component
+10077	WARN	Server-Leaks Version Information via "Server" HTTP Response Header Field
+10078	WARN	Test.ASP
+10079	WARN	Cross Site Scripting (Stored)
+10080	WARN	Cross Site Scripting (Reflected)
+10081	WARN	In Page Banner
+10082	WARN	DOM-based XSS
+10083	WARN	Heuristic Scan
+10084	WARN	Source Code Disclosure
+10085	WARN	Test.aspx
+10086	WARN	Taint Flash Byte Array
+10087	WARN	Taint Flash Strings
+10088	WARN	Insecure Randomness
+10089	WARN	Insecure Storage
+10090	WARN	Insecure Deserialization
+10091	WARN	Broken Cryptography
+10092	WARN	Insufficient Logging & Monitoring
